@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders the simple home screen correctly 1`] = `
+<section
+  className="wrapper"
+>
+  <h1>
+    Homepage
+  </h1>
+  <p>
+    Welcome to the 
+    <a
+      className="link"
+      href="/books/page/1"
+      onClick={[Function]}
+    >
+      book archive
+    </a>
+  </p>
+</section>
+`;

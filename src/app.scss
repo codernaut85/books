@@ -1,0 +1,50 @@
+@import "custom";
+
+.app {
+  text-align: center;
+}
+
+.app-header {
+  align-items: center;
+  background-color: #282c34;
+  color: theme-color("primary");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 20vh;
+
+  h1 {
+    font-size: 80px;
+  }
+}
+
+.wrapper {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1600px;
+  padding: 30px;
+}
+
+.heading-level-two {
+  margin-bottom: 30px;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.pagination-controls {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.book-list {
+  &__loading {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+  }
+}
